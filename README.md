@@ -43,7 +43,7 @@ First we Pull and Run Hazelcast
 Second Pull and Run Management-Center
 ![Ekran Resmi 2024-04-05 03 42 38](https://github.com/BurakKT0/HazelcastSample/assets/86419373/dfa10ab0-6294-4c7b-b35a-d8fa5ccd3d3c)
 
-Got to the localhost:8080 and check Maps 
+Go to the localhost:8080 and check Maps 
 <img width="1430" alt="Ekran Resmi 2024-04-05 03 45 06" src="https://github.com/BurakKT0/HazelcastSample/assets/86419373/9a9534bd-983e-4748-aa90-5a64040f13ed">
 
 Finally analyze map put&run operation
