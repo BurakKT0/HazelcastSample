@@ -3,7 +3,8 @@
 Hazelcast operates as an open-source in-memory data grid (IMDG) and is a distributed caching and in-memory data storage platform. The system has been meticulously designed to demonstrate exceptional fault tolerance and high availability, including the effective administration of failover situations. In the event of a failover situation, Hazelcast implements an assortment of tactics to guarantee the ongoing operation of the system and the accessibility of data. The following is a concise depiction of Hazelcast's conduct during a failover:
 
 1. **Cluster Architecture**
-/n Hazelcast functions as an interconnected cluster of nodes (or members), with each node responsible for storing a fraction of the complete dataset. Without requiring interruption, the cluster can be scaled dynamically by adding or removing nodes.
+
+Hazelcast functions as an interconnected cluster of nodes (or members), with each node responsible for storing a fraction of the complete dataset. Without requiring interruption, the cluster can be scaled dynamically by adding or removing nodes.
 
 2. **Data Replication and Partitioning**
 Hazelcast performs the operation of dividing the data into fragments, which are then distributed among the cluster members. In order to ensure redundancy, specific data elements are duplicated across numerous nodes. The determination of the partition count and number of replicas is dependent on the desired degree of defect tolerance.
