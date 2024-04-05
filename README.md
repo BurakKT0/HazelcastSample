@@ -36,3 +36,22 @@ Hazelcast clients are frequently provided with failover configurations. If a cli
 Hazelcast enables the customization of quorum rules to establish the minimal number of nodes needed for specific operations (such as write or read) to be deemed successful. This facilitates the preservation of data consistency and accessibility even in compromised conditions.
 
 In conclusion, during a failover scenario, Hazelcast adjusts its cluster topology, redistributes data, promotes backups, and maintains client communication to ensure continuous data availability and system functionality. The main goal is to guarantee a high degree of availability and resilience in remote situations. By appropriately configuring Hazelcast with redundancy, segmentation, and quorum settings, the system may provide efficient handling of failures and speedy recovery.Ensures the system's ability to gracefully tolerate faults and swiftly recover.
+
+First we Pull and Run Hazelcast
+![Ekran Resmi 2024-04-05 03 43 07](https://github.com/BurakKT0/HazelcastSample/assets/86419373/8bfcaa3f-3e12-43ff-a456-c8defbd40d35)
+
+Second Pull and Run Management-Center
+![Ekran Resmi 2024-04-05 03 42 38](https://github.com/BurakKT0/HazelcastSample/assets/86419373/dfa10ab0-6294-4c7b-b35a-d8fa5ccd3d3c)
+
+Got to the localhost:8080 and check Maps 
+<img width="1430" alt="Ekran Resmi 2024-04-05 03 45 06" src="https://github.com/BurakKT0/HazelcastSample/assets/86419373/9a9534bd-983e-4748-aa90-5a64040f13ed">
+
+Finally analyze map put&run operation
+<img width="1430" alt="Ekran Resmi 2024-04-05 03 44 12" src="https://github.com/BurakKT0/HazelcastSample/assets/86419373/55667ad9-a66e-4341-8ba0-3ac30bf3c869">
+
+
+
+
+
+
+
